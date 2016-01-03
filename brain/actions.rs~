@@ -1,0 +1,45 @@
+> object base64 python
+        import base64 as b64
+        return b64.b64encode(" ".join(args))
+< object
+
+
+
+> object open python
+        import app
+        return app.openapp(" ".join(args))
+< object
+
+> object date1 python
+        import time
+        return time.strftime("%d %B %Y")
+< object
+
+
+> object google python
+		import google
+		google.search(" ".join(args))
+< object
+
+> object weather python
+	import weather
+	return weather.get()
+< object
+
+
++ encode * in base64
+-<call>base64 <star></call>
+
+
++ [*] weather [*]
+-<call>weather</call>
+
++ [*] date [*]
+-today is <call>date1</call>
+
+
+
++ [*] (start|open|launch) * 
+-<call>open <star2></call>
+
+
