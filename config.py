@@ -33,12 +33,12 @@ with open(CONF_FILE,'r') as conf_file:
 
 keyword=confs["KEYWORD"]
 keywords=keyword.split(',')
-print keywords
 PUSHBULLET_ID=confs["PUSHBULLET_ID"]
 PUSHBULLET_KEY=confs["PUSHBULLET_KEY"]
 GOOGLE_API_KEY=confs["GOOGLE_API_KEY"]
 DEVICE_NAME=confs["DEVICE_NAME"]
 coordinates=confs["COORDINATES"]
+WOLFRAM_KEY=confs["WOLFRAM_KEY"]
 
 
 

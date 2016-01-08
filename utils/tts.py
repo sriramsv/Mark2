@@ -61,13 +61,3 @@ def spell_integer(n):
         num = ", ".join([big(e, x) for e, x in
                          enumerate(base1000_rev(n)) if x][::-1])
         return last_and(num)
-
-if __name__ == "__main__":
-    """
-    This module can be called from the command line. It takes
-    a string as its second argument, and sends it to the
-    text_to_speech function.
-    """
-    parts = sys.argv[1:]
-    string = " ".join(parts).strip()
-    text_to_speech(string)

@@ -3,8 +3,8 @@ import multiprocessing
 import os
 import sys,signal,threading
 from brain import Brain
-from config import ny,COMMANDS
-
+from config import ny
+import smokesignal
 
 class Interpreter(multiprocessing.Process,Brain):
     def __init__(self, scheduler=None,inq=None,outq=None):
@@ -22,10 +22,9 @@ class Interpreter(multiprocessing.Process,Brain):
         print "Interpreter Process:", self.pid
         try:
             while not self.stop.isSet():
-                next_task = self.inq.get()
-                print "Got New Word from Queue:",next_task
-                for command in COMMANDS:
-                     command.on_event(next_task,self)
+                message = self.inq.get()
+                print "Got New Word from- Queue:",message
+                smokesignal.emit(message)
 
 
         except KeyboardInterrupt:

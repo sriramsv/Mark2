@@ -41,7 +41,7 @@ if __name__ == "__main__":
     try:
         s=StartProgram()
         s.all_start()
-        signal.signal(signal.SIGINT, signal.SIG_DFL)
+        # signal.signal(signal.SIGINT, signal.SIG_DFL)
         r=Recognizer(config.LANG_FILE,config.DIC_FILE)
         r.connect('finished',s.switch)
         r.listen()

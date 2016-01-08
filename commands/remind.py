@@ -1,6 +1,5 @@
 from commands import RegexCommand
-from utils import tts
-from utils import naturaltime
+from utils import naturaltime,tts
 from config import SCHEDULER,nt,ny
 
 
@@ -19,16 +18,15 @@ class Reminder(RegexCommand):
             print self.when_epoch
             try:
                 self.remainder=SCHEDULER.add_job(self.remind,'date',run_date=self.when_epoch)
-
             except ValueError:
-                tts.text_to_speech("Could not schedule this remainder")
+                tts.speak("Could not schedule this remainder")
 
     def remind(self):
         count=0
         time=nt.to_natural_day_and_time(self.when_epoch)
         ny.show(self.what,time)
         while count!=2:
-            tts.text_to_speech("Sir,reminding you to {}".format(self.what))
+            tts.speak("Sir,reminding you to {}".format(self.what))
             time.sleep(2)
             count+=1
     def cancel_remainder(self):

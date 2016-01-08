@@ -1,19 +1,14 @@
 #!/usr/bin/python
 import re
 import os,subprocess
-import sys,speech
+import sys
+from utils.tts import speak
 import easygui as g
-from commands import RegexCommand
-from utils import tts
+import smokesignal
 
-class OpenApp(RegexCommand):
-    def __init__(self):
-        """
-        Build the basic regex command
-        """
-        regex = 'open (?P<app_name>.*)'
-        super(OpenApp, self).__init__(regex,False)
 
+
+    @
     def on_event(self, event, sender):
         m=self.match(event)
         if m:
@@ -38,20 +33,15 @@ class OpenApp(RegexCommand):
 
 
             if len(app_names)==1:
-        		# speech.say("opening {0}".format(app_names[0]))
                 comm=app_paths[0]+'&'+'2>/dev/null'
-                self.call(comm)
             elif len(app_names)>1:
                 command=g.choicebox("choose from these apps","",app_names)
                 if command!=None:
                     index=app_names.index(command)
                     comm=app_paths[index]+'&'+'2>/dev/null'
-                    self.call(comm)
 
             else:
-                tts.speak("No app found")
+                speak("No app found")
             return True
         else:
             return False
-    def call(self,app):
-	    subprocess.call(app,shell=False)

@@ -28,7 +28,9 @@ class OnlineRecognizer():
         try:
             with sr.Microphone() as source:
                 audi1 = r.adjust_for_ambient_noise(source)
+                print "----------Listening-------"
                 audi1 = r.listen(source)
+                print "----------Recognizing-------"
                 try:
                     data=r.recognize_google(audi1,key=GOOGLE_API_KEY,language="en-US",show_all=False)
                     voice_queue.put(data.lower())
@@ -38,7 +40,6 @@ class OnlineRecognizer():
                     speak("I am sorry sir, could not connect to the internet")
                     print("No internet connection")
                 except KeyError:
-                               # the API key didn't work
                     speak("I am afraid,your API key is invalid")
                     print("Invalid API key or quota maxed out")
                 except LookupError:
@@ -47,4 +48,4 @@ class OnlineRecognizer():
                     pass
 
         except KeyboardInterrupt:
-            sys.exit()
+            sys.exit(0)
