@@ -5,8 +5,9 @@ import os
 from utils import naturaltime,notify
 import yaml
 import multiprocessing
-
-
+from blinker import signal
+# from commands import date
+COMMANDS=list()
 voice_queue= multiprocessing.JoinableQueue()
 results_queue= multiprocessing.Queue()
 SCRIPT_PATH = os.path.dirname(__file__)
@@ -23,7 +24,7 @@ DIC_FILE=os.path.join(LANG_DIR,"dic")
 nt=naturaltime.NaturalTime()
 #init the dbus notify2 API
 ny=notify.Notify()
-
+broadcast= signal('Interpreter')
 #dict containing all listeners the interpreter is hooked to
 SCHEDULER = BackgroundScheduler()
 listeners={}
@@ -46,12 +47,4 @@ WOLFRAM_KEY=confs["WOLFRAM_KEY"]
 
 
 # Define your own commands and add them here
-from commands import weather,date,app,remind,runthis,volume
-COMMANDS = [
-    remind.Reminder(),
-    weather.WeatherCommand(),
-    date.DateTimeCommand(),
-    app.OpenApp(),
-    runthis.RunThis(),
-    volume.VolumeControl(),
-]
+

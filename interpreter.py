@@ -3,8 +3,9 @@ import multiprocessing
 import os
 import sys,signal,threading
 from brain import Brain
-from config import ny
-import smokesignal
+from config import ny,broadcast
+# import smokesignal
+
 
 class Interpreter(multiprocessing.Process,Brain):
     def __init__(self, scheduler=None,inq=None,outq=None):
@@ -24,15 +25,32 @@ class Interpreter(multiprocessing.Process,Brain):
             while not self.stop.isSet():
                 message = self.inq.get()
                 print "Got New Word from- Queue:",message
-                smokesignal.emit(message)
-
+                broadcast.send(text=message)
 
         except KeyboardInterrupt:
             if not self.inq.empty():
                 self.inq.task_done()
             sys.exit()
 
+
     def end(self):
         self.stop.set()
         os.kill(self.pid,signal.SIGSTOP)
 
+    def keyword_extract(self,message):
+        message.split()
+
+
+# @broadcast.connect
+# def date_event(sender,**kw):
+#     """
+#     Reads the date or the time
+#     """
+#     print "Hello",kw
+#     # intro = (
+#     #     'The date is',
+#     #     'Today is',
+#     # )
+#     # date = datetime.now().strftime("%B %d")
+#     # readable_date = "{0} {1}".format(choice(intro), date)
+#     # speak(readable_date)

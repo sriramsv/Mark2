@@ -7,7 +7,7 @@ def speak(text):
     """
     # This is linux-specific. Use the say command on OS X
     # system('echo "%s" | festival --tts' % text)
-    system("espeak -v mb-en1 '{}'".format(text))
+    system("echo {} | festival --tts".format(text))#espeak -v mb-en1 '{}'".format(text))
 
 def spell_integer(n):
     TENS = [None, None, "twenty", "thirty", "forty",

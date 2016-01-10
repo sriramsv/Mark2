@@ -1,20 +1,3 @@
-import smokesignal
-import re
 
 
-
-
-@smokesignal.on('debug')
-def verbose(val):
-    print "#", val
-
-
-class Command():
-    
-
-
-
-
-
-
-
+__all__=["date","app"]
