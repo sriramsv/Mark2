@@ -13,6 +13,5 @@ def on_event(sender,**kw):
     if m:
         app_name=m.group('app_name')
         print app_name
-        index=open('/usr/share/applications/bamf-2.index','r')
-        for i in index.readlines():
-            print i
+
+

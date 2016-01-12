@@ -1,3 +1,3 @@
 
 
-__all__=["date","app"]
+__all__=["date","app","remind"]
