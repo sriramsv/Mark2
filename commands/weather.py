@@ -1,12 +1,12 @@
 import requests
 import json,os
-import speech
 weather_data={}
-from commands import RegexCommand
 from config import coordinates
 from utils.tts import speak
 
-class WeatherCommand(RegexCommand):
+
+class WeatherCommand():
+
     def __init__(self):
         """
         Build the basic regex command. Generate the regex without the help

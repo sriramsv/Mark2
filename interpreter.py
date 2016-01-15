@@ -2,7 +2,7 @@ import multiprocessing
 import signal
 import sys
 import threading
-
+from enchant.tokenize import get_tokenizer
 import os
 from brain import Brain
 from config import broadcast
@@ -15,6 +15,7 @@ class Interpreter(multiprocessing.Process,Brain):
     def __init__(self, scheduler=None,inq=None,outq=None):
         # multiprocessing.Process.__init__(self)
         super(Interpreter, self).__init__()
+        self.tknzr = get_tokenizer("en_US")
         print "I:",self.name
         self.scheduler = scheduler
         self.inq=inq
@@ -29,6 +30,7 @@ class Interpreter(multiprocessing.Process,Brain):
             while not self.stop.isSet():
                 message = self.inq.get()
                 print "Got New Word from- Queue:",message
+                print list(self.tknzr(message))
                 broadcast.send(text=message)
 
         except KeyboardInterrupt:
@@ -45,16 +47,3 @@ class Interpreter(multiprocessing.Process,Brain):
         message.split()
 
 
-# @broadcast.connect
-# def date_event(sender,**kw):
-#     """
-#     Reads the date or the time
-#     """
-#     print "Hello",kw
-#     # intro = (
-#     #     'The date is',
-#     #     'Today is',
-#     # )
-#     # date = datetime.now().strftime("%B %d")
-#     # readable_date = "{0} {1}".format(choice(intro), date)
-#     # speak(readable_date)

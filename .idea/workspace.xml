@@ -2,30 +2,196 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49a13e71-74ed-4a59-be66-702acab89a69" name="Default" comment="New Commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smarttransit.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/__main__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/local/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extras/__init__.py" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/local/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/local/commands/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/brain.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/local/commands/app.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/local/commands/remind.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/commands/weather.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/conf/config.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/conf/sentences.corpus" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/indicator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/jarvis" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/language/dic" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/language/lm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/.idea" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/SystemWatcher.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/__main__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/audio.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/brain" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/commands" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/config.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/databases" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/gui.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/icons" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/include" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/interpreter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/language" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/language_updater.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/lib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/listener.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/offline.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/pip-selfcheck.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/sounds" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/speech.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/storedb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/local/utils" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/smarttransit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/vend" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/activate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/activate.csh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/activate.fish" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/activate_this.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/easy_install" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/easy_install-2.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/gtts-cli" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/gtts-cli.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/pip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/pip2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/pip2.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/py.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/py.test-3.5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/python" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/python2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/python2.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/slimit" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/bin/wheel" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/include/python2.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/abstract.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/async/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/async/debug.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/async/hub.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/async/semaphore.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/async/timer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/clocks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/common.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/compression.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/connection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/entity.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/five.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/log.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/message.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/messaging.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/mixins.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/pidbox.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/pools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/serialization.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/simple.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/syn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/async/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/async/test_hub.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/async/test_semaphore.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/case.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/mocks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/test_clocks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/test_common.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/test_compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/test_compression.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/test_connection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/test_entities.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/test_log.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/test_messaging.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/test_mixins.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/test_pidbox.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/test_pools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/test_serialization.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/test_simple.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/test_syn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/test_SQS.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/test_amqplib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/test_base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/test_filesystem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/test_librabbitmq.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/test_memory.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/test_mongodb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/test_pyamqp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/test_qpid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/test_redis.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/test_sqlalchemy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/test_transport.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/virtual/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/virtual/test_base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/virtual/test_exchange.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/transport/virtual/test_scheduling.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/utils/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/utils/test_amq_manager.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/utils/test_debug.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/utils/test_encoding.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/utils/test_functional.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/tests/utils/test_utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/SLMQ.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/SQS.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/amqplib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/beanstalk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/couchdb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/filesystem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/librabbitmq.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/memory.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/mongodb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/pyamqp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/pyro.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/qpid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/redis.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/virtual/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/virtual/exchange.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/virtual/scheduling.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/zmq.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/transport/zookeeper.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/utils/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/utils/amq_manager.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/utils/compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/utils/debug.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/utils/encoding.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/utils/eventio.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/utils/functional.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/utils/limits.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/utils/text.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/kombu/utils/url.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/local/bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/local/include" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/local/lib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/local/venv/pip-selfcheck.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smarttransit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/speech.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vend" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SystemWatcher.py" afterPath="$PROJECT_DIR$/extras/SystemWatcher.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/offline.py" afterPath="$PROJECT_DIR$/utils/offline.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SystemWatcher.py" afterPath="$PROJECT_DIR$/SystemWatcher.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__init__.py" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audio.py" afterPath="$PROJECT_DIR$/audio.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands/__init__.py" afterPath="$PROJECT_DIR$/commands/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands/app.py" afterPath="$PROJECT_DIR$/commands/app.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands/remind.py" afterPath="$PROJECT_DIR$/commands/remind.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands/weather.py" afterPath="$PROJECT_DIR$/commands/weather.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/config.yaml" afterPath="$PROJECT_DIR$/conf/config.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/sentences.corpus" afterPath="$PROJECT_DIR$/conf/sentences.corpus" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interpreter.py" afterPath="$PROJECT_DIR$/interpreter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language_updater.sh" afterPath="$PROJECT_DIR$/language_updater.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/listener.py" afterPath="$PROJECT_DIR$/listener.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/offline.py" afterPath="$PROJECT_DIR$/offline.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pip-selfcheck.json" afterPath="$PROJECT_DIR$/pip-selfcheck.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speech.py" afterPath="$PROJECT_DIR$/speech.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storedb.py" afterPath="$PROJECT_DIR$/storedb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jarvis" afterPath="$PROJECT_DIR$/jarvis" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/dic" afterPath="$PROJECT_DIR$/language/dic" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/lm" afterPath="$PROJECT_DIR$/language/lm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/.gitignore" afterPath="$PROJECT_DIR$/local/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/SystemWatcher.py" afterPath="$PROJECT_DIR$/local/SystemWatcher.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/__init__.py" afterPath="$PROJECT_DIR$/local/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/audio.py" afterPath="$PROJECT_DIR$/local/audio.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/config.py" afterPath="$PROJECT_DIR$/local/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/interpreter.py" afterPath="$PROJECT_DIR$/local/interpreter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/language_updater.sh" afterPath="$PROJECT_DIR$/local/language_updater.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/listener.py" afterPath="$PROJECT_DIR$/local/listener.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/offline.py" afterPath="$PROJECT_DIR$/local/offline.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/pip-selfcheck.json" afterPath="$PROJECT_DIR$/local/pip-selfcheck.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/speech.py" afterPath="$PROJECT_DIR$/local/speech.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/storedb.py" afterPath="$PROJECT_DIR$/local/storedb.py" />
     </list>
     <ignored path="Mark2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,59 +212,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-              <folding>
-                <element signature="e#93#115#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="date.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commands/date.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="remind.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commands/remind.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#1#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jarvis" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jarvis">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79581994">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commands/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-              <folding>
-                <element signature="e#18#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,10 +228,96 @@
         <entry file="file://$PROJECT_DIR$/interpreter.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commands/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <element signature="e#1#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="storedb.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/storedb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weather.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commands/weather.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="offline.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/offline.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="brain.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SystemWatcher.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/extras/SystemWatcher.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.15594855">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weather.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local/commands/weather.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,27 +353,31 @@
         <option value="$PROJECT_DIR$/commands/chat.py" />
         <option value="$PROJECT_DIR$/commands/runthis.py" />
         <option value="$PROJECT_DIR$/commands/volume.py" />
-        <option value="$PROJECT_DIR$/commands/weather.py" />
         <option value="$PROJECT_DIR$/utils/pushlistener.py" />
         <option value="$PROJECT_DIR$/gui.py" />
         <option value="$PROJECT_DIR$/brain/clients.rs" />
         <option value="$PROJECT_DIR$/appind.py" />
-        <option value="$PROJECT_DIR$/conf/sentences.corpus" />
         <option value="$PROJECT_DIR$/listener.py" />
         <option value="$PROJECT_DIR$/audio.py" />
         <option value="$PROJECT_DIR$/utils/wiki.py" />
-        <option value="$PROJECT_DIR$/conf/config.yaml" />
         <option value="$PROJECT_DIR$/utils/tts.py" />
         <option value="$PROJECT_DIR$/indicator.py" />
         <option value="$PROJECT_DIR$/date.py" />
         <option value="$PROJECT_DIR$/commands/date.py" />
-        <option value="$PROJECT_DIR$/commands/app.py" />
-        <option value="$PROJECT_DIR$/commands/__init__.py" />
         <option value="$PROJECT_DIR$/smarttransit.py" />
-        <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/interpreter.py" />
         <option value="$PROJECT_DIR$/__main__.py" />
+        <option value="$PROJECT_DIR$/conf/config.yaml" />
+        <option value="$PROJECT_DIR$/conf/sentences.corpus" />
+        <option value="$PROJECT_DIR$/commands/app.py" />
+        <option value="$PROJECT_DIR$/remind.py" />
+        <option value="$PROJECT_DIR$/interpreter.py" />
+        <option value="$PROJECT_DIR$/jarvis" />
+        <option value="$PROJECT_DIR$/commands/__init__.py" />
         <option value="$PROJECT_DIR$/commands/remind.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/speech.py" />
+        <option value="$PROJECT_DIR$/commands/weather.py" />
+        <option value="$PROJECT_DIR$/local/commands/weather.py" />
       </list>
     </option>
   </component>
@@ -202,7 +412,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,37 +431,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mark2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mark2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commands" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mark2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mark2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,6 +447,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Extras" />
+      <recent name="$PROJECT_DIR$/utils" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -516,7 +700,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Mark2" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SystemWatcher.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Extras/SystemWatcher.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -564,25 +748,25 @@
     <frame x="52" y="-4" width="1315" height="773" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18888043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18888043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33744222" sideWeight="0.5125786" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33744222" sideWeight="0.5125786" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3266564" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31895223" sideWeight="0.4874214" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32580644" sideWeight="0.49685535" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32580644" sideWeight="0.49685535" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990755" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31895223" sideWeight="0.4874214" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3266564" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -606,17 +790,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/audio.py</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/config.py</url>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="7" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -625,9 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#93#115#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -635,9 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,7 +837,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -688,9 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-          <folding>
-            <element signature="e#93#115#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,7 +875,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -727,9 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="e#93#115#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,9 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="e#93#115#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -761,9 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="e#93#115#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,13 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/weather.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3875969">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -837,24 +993,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/sentences.corpus">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11166253">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/brain/begin.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5955335">
           <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SystemWatcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.037220843">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -865,32 +1007,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/speech.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/wiki.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40942928">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4689826">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2257525">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -915,71 +1035,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5630027">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarttransit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92385787">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commands/date.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
+    <entry file="file://$PROJECT_DIR$/language/lm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding>
-            <element signature="e#93#115#0" expanded="true" />
-          </folding>
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commands/remind.py">
+    <entry file="file://$PROJECT_DIR$/language/dic">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding>
-            <element signature="e#1#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarvis">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79581994">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commands/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.3858521">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#18#27#0" expanded="true" />
+            <element signature="e#18#27#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2257525">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/sentences.corpus">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.92771083">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarvis">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -987,10 +1107,90 @@
     <entry file="file://$PROJECT_DIR$/interpreter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/remind.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storedb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/commands/weather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/weather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/offline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extras/SystemWatcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15594855">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

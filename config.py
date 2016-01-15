@@ -1,14 +1,11 @@
-# Winston configuration file
-# Read the documentation to learn more about the settings below
+
 import multiprocessing
-
 import yaml
-
 import os
 from apscheduler.schedulers.background import BackgroundScheduler
 from blinker import signal
 from utils import naturaltime,notify
-
+from pytz import UTC
 # from commands import date
 COMMANDS=list()
 voice_queue= multiprocessing.JoinableQueue()
@@ -30,20 +27,16 @@ ny=notify.Notify()
 broadcast= signal('Interpreter')
 #dict containing all listeners the interpreter is hooked to
 SCHEDULER = BackgroundScheduler(daemon=True)
-SCHEDULER.start()
-listeners={}
-activated=False
 with open(CONF_FILE,'r') as conf_file:
     confs=yaml.load(conf_file)
-
-keyword=confs["KEYWORD"]
-keywords=keyword.split(',')
-PUSHBULLET_ID=confs["PUSHBULLET_ID"]
-PUSHBULLET_KEY=confs["PUSHBULLET_KEY"]
-GOOGLE_API_KEY=confs["GOOGLE_API_KEY"]
-DEVICE_NAME=confs["DEVICE_NAME"]
-coordinates=confs["COORDINATES"]
-WOLFRAM_KEY=confs["WOLFRAM_KEY"]
+    keyword=confs["KEYWORD"]
+    keywords=keyword.split(',')
+    PUSHBULLET_ID=confs["PUSHBULLET_ID"]
+    PUSHBULLET_KEY=confs["PUSHBULLET_KEY"]
+    GOOGLE_API_KEY=confs["GOOGLE_API_KEY"]
+    DEVICE_NAME=confs["DEVICE_NAME"]
+    coordinates=confs["COORDINATES"]
+    WOLFRAM_KEY=confs["WOLFRAM_KEY"]
 
 
 
