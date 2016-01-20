@@ -6,4 +6,3 @@ apscheduler==3.0.5
 futures==3.0.3
 blinker==1.4
 natural==0.1.6
-parsedatetime==1.5

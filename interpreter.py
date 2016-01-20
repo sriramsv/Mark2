@@ -8,7 +8,7 @@ from brain import Brain
 from config import broadcast
 
 
-# import smokesignal
+
 
 
 class Interpreter(multiprocessing.Process,Brain):

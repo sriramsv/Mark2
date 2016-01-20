@@ -3,10 +3,21 @@ import multiprocessing
 import yaml
 import os
 from apscheduler.schedulers.background import BackgroundScheduler
+from apscheduler.executors.pool import ProcessPoolExecutor,ThreadPoolExecutor
 from blinker import signal
 from utils import naturaltime,notify
+
 from pytz import UTC
 # from commands import date
+
+
+def my_listener(event):
+
+    if event.exception:
+        print('The job crashed :(')
+    else:
+        print('The job worked :)')
+
 COMMANDS=list()
 voice_queue= multiprocessing.JoinableQueue()
 results_queue= multiprocessing.Queue()
@@ -27,6 +38,13 @@ ny=notify.Notify()
 broadcast= signal('Interpreter')
 #dict containing all listeners the interpreter is hooked to
 SCHEDULER = BackgroundScheduler(daemon=True)
+executors = {
+    'default': ThreadPoolExecutor(20),
+    'processpool': ProcessPoolExecutor(5)
+}
+SCHEDULER.configure(executors=executors)
+print SCHEDULER.start()
+# SCHEDULER.add_listener(my_listener, SCHEDULER.EVENT_JOB_EXECUTED | SCHEDULER.EVENT_JOB_ERROR)
 with open(CONF_FILE,'r') as conf_file:
     confs=yaml.load(conf_file)
     keyword=confs["KEYWORD"]
@@ -37,6 +55,9 @@ with open(CONF_FILE,'r') as conf_file:
     DEVICE_NAME=confs["DEVICE_NAME"]
     coordinates=confs["COORDINATES"]
     WOLFRAM_KEY=confs["WOLFRAM_KEY"]
+
+
+
 
 
 

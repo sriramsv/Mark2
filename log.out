@@ -1,30 +1,99 @@
 INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Added job "Remind.rem" to job store "default"
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
+INFO:apscheduler.scheduler:Removed job 36c475ee3a6a4939b84ef16b4590f961
+INFO:apscheduler.executors.default:Running job "testme (trigger: date[2016-01-14 22:36:00 EST], next run at: 2016-01-14 22:36:00 EST)" (scheduled at 2016-01-14 22:36:00-05:00)
+INFO:apscheduler.executors.default:Job "testme (trigger: date[2016-01-14 22:36:00 EST], next run at: 2016-01-14 22:36:00 EST)" executed successfully
 INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Added job "Remind.rem" to job store "default"
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
+INFO:apscheduler.executors.default:Running job "testme (trigger: date[2016-01-14 22:38:00 EST], next run at: 2016-01-14 22:38:00 EST)" (scheduled at 2016-01-14 22:38:00-05:00)
+INFO:apscheduler.scheduler:Removed job 61d7d7dba7b5426583bf59c0de3326dc
+INFO:apscheduler.executors.default:Job "testme (trigger: date[2016-01-14 22:38:00 EST], next run at: 2016-01-14 22:38:00 EST)" executed successfully
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
+INFO:apscheduler.executors.default:Running job "testme (trigger: date[2016-01-14 22:41:00 EST], next run at: 2016-01-14 22:41:00 EST)" (scheduled at 2016-01-14 22:41:00-05:00)
+INFO:apscheduler.scheduler:Removed job 251ebb5b994f40be8008aad7c8399c49
+INFO:apscheduler.executors.default:Job "testme (trigger: date[2016-01-14 22:41:00 EST], next run at: 2016-01-14 22:41:00 EST)" executed successfully
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
+INFO:apscheduler.executors.default:Running job "testme (trigger: date[2016-01-14 23:04:00 EST], next run at: 2016-01-14 23:04:00 EST)" (scheduled at 2016-01-14 23:04:00-05:00)
+INFO:apscheduler.scheduler:Removed job 5990a96ed97f4062a70a63df39c4b5d1
+ERROR:apscheduler.executors.default:Job "testme (trigger: date[2016-01-14 23:04:00 EST], next run at: 2016-01-14 23:04:00 EST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sriram/PycharmProjects/Mark2/venv/local/lib/python2.7/site-packages/apscheduler/executors/base.py", line 112, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sriram/PycharmProjects/Mark2/commands/remind.py", line 31, in rem
+    print self.what
+AttributeError: 'Remind' object has no attribute 'what'
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
+INFO:apscheduler.scheduler:Removed job 732ebcf2c67a46fbbfea71fc4edab901
+INFO:apscheduler.executors.default:Running job "testme (trigger: date[2016-01-14 23:05:00 EST], next run at: 2016-01-14 23:05:00 EST)" (scheduled at 2016-01-14 23:05:00-05:00)
+INFO:apscheduler.executors.default:Job "testme (trigger: date[2016-01-14 23:05:00 EST], next run at: 2016-01-14 23:05:00 EST)" executed successfully
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
+INFO:apscheduler.scheduler:Removed job 1631c4e8d97e497ba665b259b427409b
+WARNING:apscheduler.executors.default:Run time of job "testme (trigger: date[2016-01-14 23:05:00 EST], next run at: 2016-01-14 23:05:00 EST)" was missed by 0:18:28.296942
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
+INFO:apscheduler.scheduler:Removed job e1f29539e75a4bdb88458ca8e57e08f1
+WARNING:apscheduler.executors.default:Run time of job "testme (trigger: date[2016-01-14 23:05:00 EST], next run at: 2016-01-14 23:05:00 EST)" was missed by 0:18:36.304884
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
+INFO:apscheduler.executors.default:Running job "testme (trigger: date[2016-01-15 16:51:00 EST], next run at: 2016-01-15 16:51:00 EST)" (scheduled at 2016-01-15 16:51:00-05:00)
+INFO:apscheduler.scheduler:Removed job f0b17129c4fd4d08b105ce3812176bf4
+INFO:apscheduler.executors.default:Job "testme (trigger: date[2016-01-15 16:51:00 EST], next run at: 2016-01-15 16:51:00 EST)" executed successfully
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
+WARNING:apscheduler.executors.default:Run time of job "testme (trigger: date[2016-01-15 16:51:00 EST], next run at: 2016-01-15 16:51:00 EST)" was missed by 0:04:25.113129
+INFO:apscheduler.scheduler:Removed job e75c689222eb4da39bdea293d21b396a
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
+INFO:apscheduler.scheduler:Removed job 9937f2ce74c7402fb754dc4f1636fdf9
+INFO:apscheduler.executors.default:Running job "testme (trigger: date[2016-01-15 16:58:00 EST], next run at: 2016-01-15 16:58:00 EST)" (scheduled at 2016-01-15 16:58:00-05:00)
+INFO:apscheduler.executors.default:Job "testme (trigger: date[2016-01-15 16:58:00 EST], next run at: 2016-01-15 16:58:00 EST)" executed successfully
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
+INFO:apscheduler.scheduler:Added job "testme" to job store "default"
 INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Added job "Remind.rem" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
 INFO:apscheduler.scheduler:Scheduler started
 INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Added job "Remind.rem" to job store "default"
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Added job "Remind.rem" to job store "default"
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Added job "Remind.rem" to job store "default"
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Added job "Remind.rem" to job store "default"
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Added job "Remind.rem" to job store "default"
 INFO:apscheduler.scheduler:Scheduler started
 INFO:apscheduler.scheduler:Added job "test" to job store "default"
 INFO:apscheduler.scheduler:Scheduler started
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.executors.default:Running job "test (trigger: date[2016-01-15 19:46:50 EST], next run at: 2016-01-15 19:47:05 EST)" (scheduled at 2016-01-15 19:47:05.000004-05:00)
+INFO:apscheduler.scheduler:Removed job 2264cf41e7cd410ebfe9bf31ad4d37bd
+ERROR:apscheduler.executors.default:Job "test (trigger: date[2016-01-15 19:46:50 EST], next run at: 2016-01-15 19:47:05 EST)" raised an exception
+Traceback (most recent call last):
+  File "/home/sriram/PycharmProjects/Mark2/venv/local/lib/python2.7/site-packages/apscheduler/executors/base.py", line 112, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/sriram/PycharmProjects/Mark2/commands/remind.py", line 24, in rem
+    time2=nt.to_natural_day_and_time(self.when_epoch)
+AttributeError: 'NoneType' object has no attribute 'to_natural_day_and_time'
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"
+INFO:apscheduler.scheduler:Added job "test" to job store "default"

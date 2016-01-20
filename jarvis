@@ -1,14 +1,15 @@
 #!/usr/bin/python
-import pygst
+# import pygst
 
 from interpreter import *
 
-pygst.require('0.10')
+# pygst.require('0.10')
 
 import config,sys,time
 from indicator import Indicator
 from audio import OnlineRecognizer
 from listener import Recognizer,main_loop
+from commands import *
 scheduler = config.SCHEDULER
 interpreter = Interpreter(scheduler=config.SCHEDULER,inq=config.voice_queue,outq=config.results_queue)
 import logging
@@ -18,13 +19,13 @@ logging.basicConfig(filename=LOG_FILENAME,level=logging.INFO,)
 
 logging.debug('This message should go to the log file')
 #
-from commands import *
-from commands.remind import Remind
+
+# from commands.remind import Remind
 
 class StartProgram(object):
 
     def __init__(self):
-        scheduler.start()
+        # scheduler.start()
         config.SCHEDULER=scheduler
         self.listener=OnlineRecognizer()
         self.ind=Indicator(self)
@@ -52,15 +53,10 @@ class StartProgram(object):
         if self.listener.online_recognition():
             r.listen()
 
+    def print_hello(self):
+        print "working"
 
 
-@broadcast.connect
-def start(sender,**kw):
-    r=Remind()
-    r.on_event(kw)
-    scheduler.print_jobs()
-    while(1):
-        time.sleep(1)
 
 if __name__ == "__main__":
     try:
@@ -70,7 +66,7 @@ if __name__ == "__main__":
         r=Recognizer(config.LANG_FILE,config.DIC_FILE)
         r.connect('finished',s.switch)
         r.listen()
-        # scheduler.add_job(s.print_hello, 'date', name='testme', run_date='2016-01-12 18:35:00')
+        # scheduler.add_job(config.print_hello, 'date', name='testme', run_date='2016-01-14 22:38:00')
         print "starting"
         main_loop.run()
 
